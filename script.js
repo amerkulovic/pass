@@ -20,7 +20,7 @@ function generatePassword() {
     alert("Your password does not meet the criteria.");
   } else {
     let hasLowerCase = confirm("Do you want lower case characters?");
-    let hasUpperCase = confirm("Do you want upper case charcaters?");
+    let hasUpperCase = confirm("Do you want upper case characaters?");
     let hasNumeric = confirm("Do you want numeric characters?");
     let hasSpecialCharacters = confirm("Do you want special characters?");
     // Has 4 positives
